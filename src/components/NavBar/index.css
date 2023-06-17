@@ -1,0 +1,32 @@
+/* Write your code here. */
+.nav-bg {
+  width: 100vw;
+  background-color: #ffffff33;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+.logo-container {
+  width: 60%;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.emoji-logo {
+  width: 65px;
+}
+.nav-title {
+}
+.nav-text {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  font-weight: 500;
+  margin-right: 5%;
+  font-size: 18px;
+}

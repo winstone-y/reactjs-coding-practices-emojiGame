@@ -1,0 +1,48 @@
+/* Write your code here. */
+.lose-card {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+.lose-score-text {
+  text-align: center;
+  color: white;
+}
+
+.score-title {
+  font-size: 24px;
+  margin: 0px;
+  font-weight: 500;
+}
+.lose-score {
+  font-size: 28px;
+  color: #6a59ff;
+  margin: 5px;
+  font-weight: 500;
+}
+.play-again {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+  color: #3d3d3d;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ffce27;
+}
+
+.image {
+  width: 100%;
+}
